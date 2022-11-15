@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<AssemblyName>EzTool.SDK.Utilities.CompileTimestamp</AssemblyName>
+		<RootNamespace>EzTool.SDK.Utilities</RootNamespace>
+		<OutputPath>../_lib</OutputPath>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Messages\WithoutRequiredAttributeMessage.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Messages\WithoutRequiredAttributeMessage.txt" />
+	</ItemGroup>
+	
+</Project>

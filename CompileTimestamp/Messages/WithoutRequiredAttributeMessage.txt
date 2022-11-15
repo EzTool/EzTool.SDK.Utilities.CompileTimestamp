@@ -1,0 +1,8 @@
+﻿更新專案檔(.csprj)內容，加入以下段落：
+Update the .csproj of your project include this:
+
+<ItemGroup>
+	<AssemblyAttribute Include="EzTool.SDK.Utilities.CompileTimestamp.BuildDateTime">
+		<_Parameter1>$([System.DateTime]::Now.ToString("s"))</_Parameter1>
+	</AssemblyAttribute>
+</ItemGroup>

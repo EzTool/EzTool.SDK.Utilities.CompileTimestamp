@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+	<metadata>
+		<id>CompileTimestamp</id>
+		<version>1.0.0</version>
+		<authors>EzTool</authors>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<license type="expression">MIT</license>
+		<projectUrl>https://github.com/EzTool/EzTool.SDK.Utilities.CompileTimestamp</projectUrl>
+		<icon>icon.png</icon>
+		<description>提供組件編譯時間戳記功能。</description>
+		<releaseNotes>
+			# 1.0.0 發行初始版本。
+		</releaseNotes>
+		<copyright>@ 2022</copyright>
+	</metadata>
+	<files>
+		<file src="icon.png" target="" />
+		<file src="_lib\net6.0\EzTool.SDK.Utilities.CompileTimestamp.*" target="lib\net6.0" />
+	</files>
+</package>
